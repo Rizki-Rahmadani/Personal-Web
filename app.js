@@ -10,7 +10,7 @@ const fs = require("fs");
 require("./src/libs/hbs-helper");
 const { getTechImages, processTechnologies } = require("./src/libs/blogHelper");
 
-const config = require("./src/config/config.json");
+const config = require("./config/config");
 const { Sequelize, QueryTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 const session = require("express-session");
